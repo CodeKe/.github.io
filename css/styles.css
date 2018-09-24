@@ -817,6 +817,9 @@ footer .container {
 footer h1, h2, h3, h4 {
   color: white; }
 
+footer [class*='col-'] p {
+  color: white; }
+
 @media only screen and (max-width: 30em) {
   footer [class*='col-'] {
     margin-bottom: 0.5em; } }
