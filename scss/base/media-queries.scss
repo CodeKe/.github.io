@@ -1,0 +1,18 @@
+
+@mixin extra-small-only{
+    @media only screen and (max-width:$mq-1){
+        @content;
+    }
+}
+
+@mixin small-and-above {
+    @media only screen and (min-width:$mq-1+0.0625){
+        @content;
+    }
+}
+
+@mixin medium-and-above{
+    @media only screen and (min-width:$mq-1+0.875){
+        @content;
+    }
+}

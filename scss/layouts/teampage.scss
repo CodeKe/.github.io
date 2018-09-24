@@ -1,0 +1,29 @@
+.team{
+    box-sizing:border-box;
+    position: relative;
+    overflow: hidden;
+    max-width:100%;
+    height: auto;
+    float:left;
+    margin-right:2em;
+}
+
+.team img{
+    height:200px;
+    width:200px;
+}
+
+.team i{
+    font-size:1.2em;
+    margin-right:0.5em;
+   
+}
+
+.team i.active, .team i:hover{
+    font-size: 1.4em;
+}
+
+.layer .center-pos{
+margin-top:50%;
+}
+

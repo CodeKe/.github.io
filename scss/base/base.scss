@@ -1,0 +1,62 @@
+/***************************
+****************************
+Reset
+****************************
+***************************/
+
+
+/* Change all elements to use border-box */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/***************************
+****************************
+Base Styles
+****************************
+***************************/
+body {
+  
+  font-family: 'Open Sans', sans-serif,Arial, Helvetica,;
+  font-weight: normal;
+}
+h1, h2, h3 {
+  font-weight: bold;
+  padding:0.5em;
+}
+
+
+a{
+  color:white;
+}
+a, a:hover {
+  text-decoration:none;
+  cursor: pointer;
+}
+
+
+ul{
+  list-style-type:none;
+  
+  }
+
+
+
+  section:after,section:before , .clearfix, .clearfix:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+header{
+  width:100%;
+}
+
+
+.offset-top{
+  @include small-and-above{
+  margin-top:150px;
+  }
+}

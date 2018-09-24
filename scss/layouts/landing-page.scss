@@ -1,0 +1,75 @@
+
+
+.center-pos.clearfix{
+    text-align: left;
+}
+
+
+.section-pad{
+    padding: 1em;
+    line-height:2;
+}
+
+.section-pad [class*='col-']{
+    padding:.5em;
+}
+
+
+
+
+/**after header section ***/
+#img-banner{
+    background-image:url("../images/lab1.JPG") ;  
+    height:700px;
+    @include extra-small-only{
+        height:400px;
+    }
+}
+
+#img-banner .section-pad{
+ @include small-and-above{
+ margin-top:300px ;
+ margin-bottom:200px;
+ }
+}
+ 
+
+/*** Our Mission section ***/
+
+.col-1-2 .atom-spinner{
+
+    margin-top:2em;
+}
+
+
+/*** counter section ***/
+#counter{
+    font-size:1.5em;
+    color:white;
+}
+#counter span{
+    font-size:1.8em;
+    color:yellow;
+    margin:0 0.5em;
+}
+
+
+
+/******* Help us Section ****/
+#help-us .center-pos .col-1-2{
+ margin-bottom:5em;
+ color:white;
+}
+
+
+#help-us .center-pos .col-1-2 h3 {
+padding:1em;    
+height:100px;
+}
+
+
+
+
+
+
+

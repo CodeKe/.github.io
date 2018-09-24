@@ -1,0 +1,36 @@
+/***************************
+  Logo Modules
+  ***************************/
+  .logo {
+    
+    position:absolute;margin-top:40px;
+    //overflow:hidden;
+    //border:1px solid green;
+    margin-left:10px;
+    max-width:40%;
+    float:left;
+@include extra-small-only{
+position:relative;
+margin-top:0;
+}
+
+   
+  }
+  .logo-primary {
+    
+    width: 64px;
+    height:64px;
+    float:left;
+   
+    @include small-and-above{
+        
+        width:auto;
+        height:100px;
+        
+    }
+  }
+  .logo-primary img {
+    height: 100%;
+   
+  }
+

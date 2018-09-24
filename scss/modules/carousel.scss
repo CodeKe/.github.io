@@ -1,0 +1,25 @@
+.carousel{
+    padding:20px;
+    margin:20px 0;
+    /**background:$background-primary;**/
+    overflow:hidden;
+    
+    max-height:180px;
+}
+
+/**** .carousel .partners{
+    width:100px;
+    height:100px;
+    background:tan;
+    float: left;
+    border:1px solid black;
+    margin-right:10px;
+    
+} ****/
+
+.carousel .partners img{
+    max-width:100px;
+    max-height:100px;   
+    
+    
+    } 

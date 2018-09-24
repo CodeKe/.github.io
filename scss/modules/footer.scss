@@ -1,0 +1,44 @@
+footer .container{
+
+//background: yellow;
+height:300px;
+padding:5px;
+@include extra-small-only{
+    height: auto;
+}
+
+}
+
+
+footer h1,h2,h3,h4{
+    color:white;
+}
+
+footer  [class*='col-']{
+   @include extra-small-only{
+       margin-bottom:0.5em;
+   }
+
+}
+
+footer .center-pos{
+    
+padding:1em ;
+
+height:auto;
+
+}
+
+
+
+
+
+.register{
+   >p{
+       padding:5px 0;
+   }
+   @include small-and-above{
+       display:none;
+   }
+}
+
