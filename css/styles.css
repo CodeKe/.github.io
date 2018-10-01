@@ -516,13 +516,26 @@ Layout Styles
   padding: 1em;
   height: 100px; }
 
+@media only screen and (min-width: 30.0625em) {
+  .prog, .prog-cont {
+    margin-top: 5em; } }
+
+.prog {
+  max-width: 250px; }
+
+.prog img {
+  width: 250px;
+  height: 250px; }
+
 .team {
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
   max-width: 100%;
   height: auto;
-  float: left;
+  float: left; }
+
+.team {
   margin-right: 2em; }
 
 .team img {
