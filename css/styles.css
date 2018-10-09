@@ -520,12 +520,17 @@ Layout Styles
   margin-top: 3em;
   margin-bottom: 3em; }
 
+.prog-img-cont img {
+  max-width: 100%;
+  display: block;
+  height: auto; }
+
 @media only screen and (min-width: 30.0625em) {
   .prog {
     height: 450px;
     margin-right: 2px;
     overflow: hidden; }
-  .prog img {
+  .prog-img-cont {
     width: 250px;
     height: 250px; } }
 
@@ -646,7 +651,7 @@ div.btn-round {
 .subscribe input {
   background-color: white; }
 
-.btn-send .btn, .subscribe .btn {
+.btn-send .btn, .btn {
   padding: 10px;
   border: 0px; }
 
@@ -852,6 +857,10 @@ footer .center-pos {
 @media only screen and (min-width: 30.0625em) {
   .register {
     display: none; } }
+
+.subscribe {
+  display: flex;
+  width: 200px; }
 
 /*** rotating squares ***/
 .self-building-square-spinner, .self-building-square-spinner * {

@@ -5,6 +5,12 @@
     margin-bottom:3em;
 }
 
+.prog-img-cont img{
+    max-width:100%;
+    display:block;
+    height:auto;
+}
+
 @include small-and-above{
 .prog {
  
@@ -13,7 +19,9 @@
    overflow:hidden;
 
 }
-.prog img
+
+//*** program image container ***/
+.prog-img-cont
 {
     width:250px;
     height:250px;
