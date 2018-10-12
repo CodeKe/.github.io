@@ -1,0 +1,15 @@
+
+.donate {
+    margin-bottom:20px;
+    @include small-and-above{
+        margin-top:200px;
+    }
+    
+}
+
+
+
+.donate a {
+    padding:10px 20px ;
+   
+}

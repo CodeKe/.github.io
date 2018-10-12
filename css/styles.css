@@ -500,7 +500,8 @@ Layout Styles
 /*** counter section ***/
 #counter {
   font-size: 1.5em;
-  color: white; }
+  color: white;
+  width: 70%; }
 
 #counter span {
   font-size: 1.8em;
@@ -559,6 +560,15 @@ Layout Styles
 .layer .center-pos {
   margin-top: 50%; }
 
+.donate {
+  margin-bottom: 20px; }
+  @media only screen and (min-width: 30.0625em) {
+    .donate {
+      margin-top: 200px; } }
+
+.donate a {
+  padding: 10px 20px; }
+
 /***************************
 Header
 ***************************/
@@ -570,7 +580,7 @@ header {
   @media only screen and (min-width: 30.0625em) {
     header {
       position: fixed;
-      border-bottom: 1px solid #e1e1e1;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.19);
       z-index: 999;
       transition: all .5000s ease-in-out;
       -webkit-transition: all .500s ease-in-out; } }
@@ -760,7 +770,7 @@ div.btn-round {
 .mask-banner {
   width: 100%;
   overflow: hidden;
-  box-shadow: 0.3em 0.1em 0.5em 0 #c9c6c6; }
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19); }
 
 .mask-banner img {
   object-fit: fill;
@@ -785,6 +795,14 @@ div.btn-round {
 .carousel .partners img {
   max-width: 100px;
   max-height: 100px; }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap; }
+
+.flex-row {
+  align-items: center;
+  flex-direction: row; }
 
 .fadein {
   -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
