@@ -63,3 +63,14 @@ a.fadein:hover {
 .card{
     box-shadow:0 10px 20px rgba(0,0,0,0.19);
 }
+
+.dline {
+    content: '';
+    position: absolute;
+    width: 90px;
+    height: 1px;
+    background:$blue-theme-1 ;//#b1bac2
+    left: 50%;
+    margin-left: -45px;
+    bottom: -16px;
+}

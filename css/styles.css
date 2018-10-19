@@ -501,8 +501,9 @@ Layout Styles
   margin-right: 5%; }
 
 .about-us-content h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Lato, Arial, Helvetica, sans-serif;
   text-align: center;
+  letter-spacing: 0.4em;
   color: #00b5f3; }
 
 .lang-icon {
@@ -877,6 +878,16 @@ a.fadein:hover {
 
 .card {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19); }
+
+.dline {
+  content: '';
+  position: absolute;
+  width: 90px;
+  height: 1px;
+  background: #00b5f3;
+  left: 50%;
+  margin-left: -45px;
+  bottom: -16px; }
 
 footer .container {
   height: 300px;
