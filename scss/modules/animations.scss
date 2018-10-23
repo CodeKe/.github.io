@@ -163,3 +163,14 @@
   }
 
 
+
+//***Animation to slide up "who we are' //
+
+@keyframes heading-slideup{
+  0%{transform:translateY(20px);opacity:0.1}
+  25%{transform:translateY(15px);opacity:0.25 }
+  50%{transform: translateY(10px);opacity:0.5}
+  75%{transform: translateY(5px);opacity:0.75}
+  100%{transform: translateY(0);opacity:1}
+ 
+}
