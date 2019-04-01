@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>SyncPac</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" type="text/css" href="lateral.css"> -->
+    
     <link rel="stylesheet" href="dist/all.min.css">
 
     <script src="dist/all.min.js"></script>
-
+    
 
     <link rel="stylesheet" href="dist/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="lateralstyles.css">
@@ -28,6 +28,7 @@
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="dist/bootstrap.bundle.min.js"></script>
+    <script src="dist/util.js"></script>
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script> -->
@@ -36,17 +37,18 @@
     <script src="main.js"></script>
 </head>
 
-<body>
+<body >
     <header>
-        <nav class="navbar navbar-expand-md navbar-light sticky-top ">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light "  > 
+            <div class="container-fluid ">
                 <a href="#" class="navbar-brand"><span class="green-one">Sync</span><span
                         class="blue-one">Pac</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
                     aria-controls="mainNav" aria-expanded="false" aria-label="Toggle Navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="mainNav">
+
+                <nav class="collapse navbar-collapse " id="mainNav" >
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a href="#" class="nav-link">Home</a>
@@ -58,30 +60,32 @@
                             <a href="#" class="nav-link">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Contact Us</a>
+                            <a href="#contact-us" class="nav-link">Contact Us</a>
                         </li>
                     </ul>
-                </div>
+
+                </nav>
             </div>
         </nav>
+        
     </header>
     <!-- main section -->
-    <main>
+    <main data-spy="scroll" data-target="#mainNav" data-offset="0" >
 
 
 
 
         <!-- Carousel Section        -->
 
-        <div class="carousel slide" id="slides" data-ride="carousel">
+        <div class="carousel slide " id="slides" data-ride="carousel">
             <ul class="carousel-indicators ">
 
                 <li data-target="#slides" data-slide-to="0" class="active"></li>
                 <li data-target="#slides" data-slide-to="1"></li>
-               
+
             </ul>
 
-            <div class="carousel-inner">
+            <div class="carousel-inner ">
                 <div class="carousel-item active">
                     <img src="img/carousel-one.jpg" alt="">
                     <div class="carousel-caption green-one">
@@ -91,7 +95,7 @@
                         <button type="button" class="btn  btn--blue-bg ">Learn</button>
                     </div>
                 </div>
-               
+
                 <div class="carousel-item">
                     <img src="img/carousel-two.jpg" alt="">
                     <div class="carousel-caption green-one">
@@ -138,12 +142,12 @@
 
                     </h4>
                     <h4 class="display-4">
-                    <p class="lead  ">Intiuitive app designs for your business or company </p>
-                   </h4>
+                        <p class="lead  ">Intiuitive app designs for your business or company </p>
+                    </h4>
                 </div>
                 <div class="row">
-                    <div class=" col-md-3">
-                        <div class="card text-center mb-3 pb-3">
+                    <div class=" col-md-6 col-sm-6 col-lg-3">
+                        <div class="card card-pop text-center mb-3 pb-3">
                             <div class="card-img-top">
                                 <i class="fab fa-android fa-7x"></i>
                                 <!-- <img src="img/mobapp1.png" class="card-img-top"> -->
@@ -152,7 +156,7 @@
                             <div class="relative ">
                                 <hr class="hr-expand ">
                             </div>
-                            <p class="card-text">
+                            <p class="card-text ">
                                 Cupcake ipsum dolor. Sit amet marshmallow topping cheesecake muffin.
                                 Halvah croissant candy canes bonbon candy.
                                 Apple pie jelly beans topping carrot cake danish tart cake cheesecake.
@@ -160,8 +164,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class=" col-md-3">
-                        <div class="card text-center mb-3 pb-3">
+                    <div class=" col-md-6 col-sm-6 col-lg-3">
+                        <div class="card card-pop text-center mb-3 pb-3">
                             <div class="card-img-top ">
 
                                 <i class="fas fa-code fa-6x mr-3"></i>
@@ -180,8 +184,8 @@
 
                         </div>
                     </div>
-                    <div class=" col-md-3">
-                        <div class="card text-center mb-3 pb-3">
+                    <div class=" col-md-6 col-sm-6 col-lg-3">
+                        <div class="card card-pop text-center mb-3 pb-3">
                             <div class="card-img-top">
 
 
@@ -201,8 +205,8 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
-                        <div class="card text-center mb-3 pb-3">
+                    <div class="col-md-6 col-sm-6 col-lg-3">
+                        <div class="card card-pop text-center mb-3 pb-3">
 
                             <div class="card-img-top">
                                 <i class="fas fa-tasks fa-7x "></i>
@@ -226,8 +230,82 @@
 
             </div>
         </section>
+
+        <!-- Our Team Section -->
+        <section>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="mx-auto">
+                        
+                            <h5 class="display-5">Meet our team</h5>
+                           
+                        </div>
+                    </div>          
+                        
+                    </div>
+            <div class=" jumbotron ">
+                <div class="container-fluid ">
+                    
+                    <div class="row justify-content-center">
+
+
+                        <div class="col-xs-12 col-sm-6 col-lg-3 ">
+
+                            <div class="card text-center ">
+
+                                <div class="card-img-top bg-dark ">
+                                    
+                                </div>
+                                <div class="card-title">Dan Chumo</div>
+                                <div class="card-text">Lorem Ipsum Java Specialist</div>
+                            </div>
+
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-3 ">
+
+                                <div class="card text-center ">
+    
+                                    <div class="card-img-top bg-dark ">
+                                    </div>
+                                    <div class="card-title">Dan Chumo</div>
+                                    <div class="card-text">Lorem Ipsum Java Specialist</div>
+                                </div>
+    
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-lg-3 ">
+
+                                    <div class="card text-center ">
+        
+                                        <div class="card-img-top bg-dark ">
+                                        </div>
+                                        <div class="card-title">Dan Chumo</div>
+                                        <div class="card-text">Lorem Ipsum Java Specialist</div>
+                                    </div>
+        
+                                </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
         <!-- contact us section -->
-        <section class="contact-us clearfix">
+    
+               
+          
+        <section class="contact-us clearfix relative" id="#contact-us">
             <div class="container-fluid " style="padding:10rem 0 10rem 0;">
 
                 <div class="col-md-10 mx-auto " style="background-color:#33ffdd">
@@ -236,22 +314,22 @@
                             <div class="container mt-3 pt-3 ml-3 mr-3  ">
                                 <h4 class="display-4  text-dark ">
                                     Give us a call for a free consulation
-                                
-                                <button type="button" class="btn btn--blue-bg ">+254773939332</button>
-                              
-                            </h4>
-                            <h6 class="display-6 text-secondary ">Or write to us we'll respond via email</h6>
+
+                                    <button type="button" class="btn btn--blue-bg ">+254773939332</button>
+
+                                </h4>
+                                <h6 class="display-6 text-secondary ">Or write to us we'll respond via email</h6>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md p-0  m-0" style="background-color:white">
-                            <svg class="svg-form-left"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+                            <svg class="svg-form-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
                                 preserveAspectRatio="none">
                                 <polygon fill="#33ffdd" points="0,0 100,0 0,100"></polygon>
                             </svg>
-                            
-                            <div class="d-flex flex-row "  >
+
+                            <div class="d-flex flex-row ">
                                 <div class="d-flex-column mb-3 col-xs-12 col-sm-12 col-md-10 ">
-                                    <form class="" id="ContactForm" method="post" action="" >
+                                    <form class="" id="ContactForm" method="post" action="">
 
                                         <span class="form-input  input-effect">
 
@@ -302,80 +380,93 @@
 
             </div>
         </section>
+ 
     </main>
 
 
 
-    <!-- <div class=" col-md-3">
-            <div class="card text-center shadow-sm mycard">
-                <div class="card-img-top ">
-
-                    
-                    <img src="img/web-dev.jpg" alt="web-development" class="card-img-top ">
-
-                </div> 
-        
-                <h4 class="card-title blue-one p-2 ">Web Dev</h4>
-             
-                <p class="card-text">
-                    Android Develepment Lorem Ipsum
-                </p>
-            </div>
-        </div> -->
-
+  
     <!-- footer section -->
 
 
     <footer>
-        <div class="container-fluid">
+        <div class="container-fluid text-secondary">
+            <div class="row">
+                <div class="col-md-4 col-xs-12 col-sm-12">
 
-            <div class="col-md-4 col-xs-12 col-sm-12">
+                    <div class="d-flex flex-column " >
+                        <h5 class="display-5 ">SYNCPAC </h5>
+                        <p class="lead">
+                            Copyright &copy; 2019
 
-                <div class="d-flex flex-column text-secondary">
-                    <h5 class="display-5 ">SYNCPAC</h5>
-                    <p class="lead">
-                        Copyright &copy; 2019
+                        </p>
+                        <p class="mb-3">All Rights Reserved</p>
 
-                    </p>
-                    <p>All Rights Reserved</p>
-                    <h4 class="dispaly-4"></h4>
-                    <span>
-                        <a href="#" class="mr-3">
-                            <img src="img/facebook.png" alt="facebook"  height="30px" width="30px">
+                        <span>
+                            <a href="#">
+                                <img src="img/facebook.png" alt="facebook" height="30px" width="30px">
 
-                        </a>
-                        <a href="#" class="mr-3">
-                            <img src="img/twitter.png" alt="twitter" height="30px" width="30px">
+                            </a>
+                            <a href="#">
+                                <img src="img/twitter.png" alt="twitter" height="30px" width="30px">
 
-                        </a>
-                        <a href="#" >
-                            <img src="img/linkedin.png" alt="linkedin" height="30px" width="30px">
+                            </a>
+                            <a href="#">
+                                <img src="img/linkedin.png" alt="linkedin" height="30px" width="30px">
 
-                        </a>
+                            </a>
 
-                        <!-- <i class="fab fa-facebook fa-2x mr-3"></i>
-<i class="fab fa-twitter fa-2x mr-3"></i>
-<i class="fab fa-linkedin fa-2x"></i> -->
-                    </span>
+
+                        </span>
+
+                    </div>
+
+
 
                 </div>
 
+                <div class="col-md-3 col-xs-12 col-sm-12">
+                    <div class="d-flex d-flex-row ">
+                        <input class="form-control bg-dark" type="email" placeholder="subscribe">
+                        <button class="bg-dark p-2">
+                            <i class="fas fa-paper-plane text-white "></i>
+                        </button>
+                    </div>
+                </div>
 
+                <div class="col-md-4 col-xs-12 col-sm-12 ml-3">
+                    <div class="d-flex flex-column">
+                        <h5 class="display-5 ">Contact US</h5>
+                        <p class="font-weight-bold">Eldoret </h6>
+                            <p>Phone: 07123456789</p>
+                            <p class="mb-3">Email: eld.syncapark.com</p>
+
+                            <p class="font-weight-bold">Nairobi </h6>
+                                <p>Phone: 07123456789</p>
+                                <p>Email: nrb.syncapark.com</p>
+                    </div>
+
+
+
+                </div>
 
             </div>
-
-
-
         </div>
-
+        <div class="container-fluid text-secondary">
+            <div class="row ">
+                <div class="mx-auto  mt-3">
+                    Designed by <a href="#" class="text-light">Giddie&trade;</a>
+                </div>
+            </div>
+        </div>
 
     </footer>
 
 </body>
 <script>
-    window.sr = ScrollReveal({ reset: true});
-    sr.reveal(".contact-us .row",{duration:3000});
-    sr.reveal(".our-services .row",{duration:3000});
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal(".contact-us .row", { duration: 3000 });
+    sr.reveal(".our-services .row", { duration: 3000 });
     sr.reveal(".carousel-item active");
 
 </script>

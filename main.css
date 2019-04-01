@@ -15,6 +15,10 @@ html{
     position: absolute;
 }
 
+.fixed{
+    position: fixed;
+}
+
 .navbar{
     padding:2rem;
 }
@@ -33,7 +37,9 @@ html{
     
 
 /* buttons */
-
+button{
+    border:none;
+}
 .bg-primary{
     background-color:#313ee7;
     color:white;
@@ -42,6 +48,7 @@ html{
 
 
 
+/* Forms */
 
 
 .carousel-inner{
@@ -61,7 +68,7 @@ html{
     top:40%;
     
     transform: translateY(-50%);
-   text-shadow: 1px 1px 10px #000;
+   text-shadow: 1px 1px 5px #000;
    
 }
 .carousel-caption h1{
@@ -90,6 +97,9 @@ html{
 
 
  /* cards */
+.card{
+    font-family:'Poppins','Source Sans Pro', 'Montesarrat','Lato' sans-serif;
+}
 .card-img-top{
     position: relative;
     height:150px;
@@ -98,19 +108,23 @@ html{
     
 }
 
-
-.card{
+.card-text{
+    padding:0 2rem;
+}
+ 
+ 
+.card-pop{
     border: none;
     outline:none;
 }
 
-.card:hover{
+.card-pop:hover{
     -webkit-animation: box-pop-up 0.3s forwards;
 	animation:box-pop-up 0.3s forwards;
 }
 
 .card:hover  .hr-expand{
-    width:90%;
+    width:80%;
     transition: all 0.3s ease 0.3s;
 }
 
@@ -120,9 +134,9 @@ html{
    
     height:0.5px;
     background: #313ee7;
-    
+ 
     width:30%;
-    margin:5px auto;
+    margin:1rem auto;
       
 }
 
@@ -144,11 +158,11 @@ html{
 
 /* contact us section */
  .contact-us  .container-fluid{
-    /* background-image: url('img/emailbackground.jpg'); */
+    /* background-image:url("img/emailbackground.jpg"); */
     background-attachment: fixed;
     background-size:cover;
     color:whitesmoke;
-    background-color:rgba(42, 42, 233, 0.527);
+    background-color:#2a2ae986;
 }
 
 
@@ -299,9 +313,22 @@ html{
 footer{
     font-family: 'Source Sans Pro', sans-serif;
     padding-top:40px;
-    background-color: #23242c;
-}
+    /* background-color: #23242c; */
+    background-color: #3c3c3f;
+    background-image: linear-gradient(121deg, #3c3c3f 10%, #23242c 35%);
+    
+    
+    
 
+}
+footer .form-control{
+    border-style:none;
+    border-radius:0;
+   
+ }
+ footer .form-control:focus{
+     color:whitesmoke;
+ }
 
 
 @-webkit-keyframes anim-input {
@@ -365,7 +392,7 @@ footer{
     }
 
     .carousel-caption h1{
-        font-size:400%;
+        font-size:400%;ma
     }
     .carousel-caption button{
         display:none;
