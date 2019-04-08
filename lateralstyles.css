@@ -65,7 +65,8 @@ p{
 }
 a{
 	text-decoration:none;
-	color:#4d3ee1; 
+	/* color:#4d3ee1;  */
+	color:white;
 }
 blockquote{
 	font-style:italic;
@@ -89,7 +90,8 @@ a img{
 }
 a:hover{
 	text-decoration:none;
-	color:#212121;
+	/* color:#212121; */
+	color:white;
 }
 img.responsive_image{
 	max-width:100%;
@@ -735,13 +737,13 @@ color:#000;
 	transition: all 0.3s ease; 
  }
 .btn--blue-bg{
-	color:#fff;
-	background-color:#4d3ee1;
-	border:2px #4d3ee1 solid;
+	color:whitesmoke;
+	background-color:#313ee7;
+	border:2px #313ee7 solid;
 }
 .btn--blue-bg:hover{
 	background:none;
-	color:#fff;
+	color:#313ee7;
 }
 .btn--blue-border{ 
 	color:#33ffbd; 
