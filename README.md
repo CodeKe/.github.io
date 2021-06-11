@@ -1,2 +1,2 @@
 # codeke.github.io
-Campaing website for organization
+Campaining website for organization
